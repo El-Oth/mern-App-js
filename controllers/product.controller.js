@@ -1,7 +1,7 @@
 const { json } = require("express/lib/response")
 const { findById } = require("../models/User")
 const User = require("../models/User")
-const Product = require("./models/Product")
+const Product = require("../models/Product")
 
 
 exports.getAllProducts = async (req,res)=>{
