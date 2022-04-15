@@ -2,7 +2,7 @@ require("dotenv").config({ path: "./config/.env" });
 const express = require('express');
 const connectDB = require('./config/connectDB')
 const auth = require('./routes/auth')
-const product = require('./routes/Product')
+const product = require('./routes/Products')
 ///local middleware
 
 const logger = (req,res,next)=>{
